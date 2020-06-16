@@ -3,4 +3,32 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
+}
+
+.slider .slick-dots button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #0b0b0b;
+    border: none;
+    padding: 0;
+    font-size: 0;
+    outline: none;
+}
+
+.slider .slick-dots .slick-active button {
+    background-color: #fff;
+}
+
+.slider .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.slider .slick-dots {
+    margin: -46px auto 0;
+    position: relative;
+    z-index: 6;
+    max-width: 1290px;
 }

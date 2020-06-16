@@ -13,8 +13,8 @@
 }
 
 .logo {
-    padding-top: 36px;
-    margin-bottom: 29px;
+    padding-top: 30px;
+    margin-bottom: 20px;
 }
 
 .header-btn {
@@ -39,9 +39,9 @@
 
 .header-content__title {
     font-family: 'Roboto', serif;
-    font-size: 96px;
-    line-height: 112px;
-    margin-bottom: 40px;
+    font-size: 86px;
+    line-height: 100px;
+    margin: 20px 0 40px 0;
 }
 
 .header-content__text {
@@ -49,14 +49,14 @@
     margin-bottom: 25px;
 }
 
-.header-content__btn {
+.button {
     display: inline-block;
     border: 1px solid #fff;
-    padding: 30px 62px;
+    padding: 30px 30px;
     background: rgba(255, 255, 255, 0.15);
     transition: all .5s;
 }
 
-.header-content__btn:hover {
+.button:hover {
     background-color: $fon-red;
 }

@@ -1,8 +1,9 @@
 $(function() {
     $('.slider').slick({
-        dots: true,
+
         arrows: false,
         fade: true,
-        autoplay: 3000
+        autoplay: 3000,
+        dots: true
     });
 });
